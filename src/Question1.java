@@ -4,14 +4,14 @@ public class Question1 {
 
 	public static void main(String[] args) {
 	
-		//PascalCase
-		//QuestionCozum
+		//Verilen isim ve soyisim değerlerini
 		
-		//degiskenler --> enBuyukSayi = 10
+		//Hoşgeldiniz isim + soyisim yazdıralım
 		
-		Scanner scanner = new Scanner(system.in);
 		
-		String isim;
+		Scanner scanner = new Scanner(System.in);
+		
+		String isim = null;
 		
 		String soyIsim;
 		
@@ -21,11 +21,8 @@ public class Question1 {
 		System.out.println("Soy Isim Giriniz");
 		soyIsim = scanner.next();
 		
-		System.out.println("Hoşgeldiniz:");
-				
-		
-		
-				
+		System.out.println("Hoşgeldiniz:" + isim + " " + soyIsim);
+							
 
 	}
 
